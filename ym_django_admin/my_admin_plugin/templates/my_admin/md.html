@@ -1,0 +1,18 @@
+<table border="1">
+    <thead>
+        <tr>
+            {% for foo in ooo %}
+                <th>{{ foo }}</th>
+            {% endfor %}
+        </tr>
+    </thead>
+    <tbody>
+    {% for item in xxx %}
+        <tr>
+            {% for foo in item %}
+                <td>{{ foo }}</td>
+            {% endfor %}
+        </tr>
+    {% endfor %}
+    </tbody>
+</table>
